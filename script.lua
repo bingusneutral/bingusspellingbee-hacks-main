@@ -1,5 +1,7 @@
 local Player = game:GetService("Players").LocalPlayer
+
 local PlayerGui = Player:WaitForChild("PlayerGui")
+
 local TextBox = PlayerGui:WaitForChild("TypingHUD"):WaitForChild("TextBox")
 
 local Running = false
